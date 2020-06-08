@@ -4,7 +4,7 @@ This is a program version of the classic game of chess.
 
 ## Installation
 
-In order to install this project, you should put all the java files in the src folder into to IDE and run the main method in the GameRunner class
+In order to install this project, you should put all the java files in the src folder into an IDE, compile the java files, and run the main method in the GameRunner class
 
 ## Rules
 
