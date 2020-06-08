@@ -45,7 +45,6 @@ public class Rook extends Piece {
     public boolean isStripBlocked(int initialPlace, int nextPlace, int constant, Board theBoard, boolean didXChange)
     {
         boolean increasing = nextPlace>initialPlace;
-        System.out.println(increasing);
         if(didXChange) {//we just go from the initial place to the final place and check if each spot along the way is null. If so, the strip is blocked
             if (increasing) {
                 for (int i = initialPlace + 1; i < nextPlace; i++) {

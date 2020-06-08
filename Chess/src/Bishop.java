@@ -1,12 +1,12 @@
 public class Bishop extends Piece {
+    /**
+     * Bishop constructor
+     * @param iW boolean that isWhite is set to.
+     * isPawn = false
+     * isKing = false
+     * isRook = false
+     */
     public Bishop(boolean iW) {
-        /**
-         * Bishop constructor
-         * @param iW boolean that isWhite is set to.
-         * isPawn = false
-         * isKing = false
-         * isRook = false
-         */
         super(iW, false,false, false);
     }
 

@@ -1,12 +1,12 @@
 public class Knight extends Piece {
+    /**
+     * Knight constructor
+     * @param iW boolean that isWhite is set to.
+     * isPawn = false
+     * isKing = false
+     * isRook = false
+     */
     public Knight(boolean iW) {
-        /**
-         * Knight constructor
-         * @param iW boolean that isWhite is set to.
-         * isPawn = false
-         * isKing = false
-         * isRook = false
-         */
         super(iW, false,false, false);
     }
 
